@@ -19,7 +19,7 @@ public class IntroSequence : MonoBehaviour
         introText.text = "";
         yield return new WaitForSeconds(1.5f);
         string message = "Отец моего друга Карсон попросил присмотреть за их домом пока они в отьезде.";
-        yield return 
+        yield return; 
     }
 
     // Update is called once per frame
